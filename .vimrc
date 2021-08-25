@@ -4,19 +4,21 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-surround'
+Plugin 'preservim/nerdtree'
 call vundle#end()
 filetype plugin indent on
 filetype plugin on
 
 set nocompatible
 filetype off    
-
 set tabstop=2 
 set shiftwidth=2
 set smarttab
 set expandtab
 set softtabstop=2
 set number
+set nobackup
+set nowrap
 
 set autoindent
 
