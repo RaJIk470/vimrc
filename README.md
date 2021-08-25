@@ -4,6 +4,6 @@ Install plugin manager vundle
 
 And type `:PluginInstall` in vim
 
-set as default text editor in terminal
+set as a default text editor in terminal
 
 `export EDITOR=vim`
