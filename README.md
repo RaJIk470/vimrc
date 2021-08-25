@@ -1,3 +1,7 @@
+`git clone https://github.com/rajik470/vimrc`
+
+`ln ./vimrc/.vimrc ~/.vimrc`
+
 Install plugin manager vundle
 
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
