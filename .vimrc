@@ -5,7 +5,15 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-surround'
 Plugin 'preservim/nerdtree'
+Plugin 'octol/vim-cpp-enhanced-highlight'
 call vundle#end()
+let g:cpp_class_scope_highlight = 1
+"let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+let g:cpp_posix_standard = 1
+let g:cpp_experimental_template_highlight = 1
+let g:cpp_concepts_highlight = 1
+
 filetype plugin indent on
 filetype plugin on
 
