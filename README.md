@@ -1,9 +1,13 @@
+`git clone https://github.com/rajik470/vimrc`
+
+`ln ./vimrc/.vimrc ~/.vimrc`
+
 Install plugin manager vundle
 
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+`git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-And type :PluginInstall in vim
+type `:PluginInstall` in vim
 
-default text editor in terminal
+set as a default text editor in terminal
 
-export EDITOR=vim
+`export EDITOR=vim`
