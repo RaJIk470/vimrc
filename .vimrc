@@ -39,9 +39,9 @@ set termencoding=utf-8
 set encoding=utf-8
 set fileencodings=utf8,cp1251
 
-" SUCH AN IMPORTANT THING!!! IT MAKES VIM BETTER!!!
 set timeout
 set timeoutlen=5000
 set ttimeoutlen=100
+
 
 colorscheme OceanicNext
