@@ -1,6 +1,8 @@
 `git clone https://github.com/rajik470/vimrc`
 
-`ln ./vimrc/.vimrc ~/.vimrc`
+Move .vimrc to your home directory
+
+For neovim move init.vim to ~/.config/nvim
 
 Install plugin manager vundle
 
